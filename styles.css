@@ -1,0 +1,203 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Header Styles */
+header {
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4a7c59;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Hero Section Styles */
+.hero {
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.search-bar {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.search-bar input {
+    flex-grow: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-bar button {
+    padding: 0.5rem 1rem;
+    background-color: #4a7c59;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+/* Categories Section Styles */
+.categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem 1rem;
+}
+
+.categories button {
+    padding: 0.5rem 1rem;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Featured Section Styles */
+.featured {
+    background-color: white;
+    padding: 2rem;
+}
+
+.property-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+/* Adjust overall layout and spacing */
+body {
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Enhance header styles */
+header {
+    padding: 1rem 2rem;
+}
+
+nav a {
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #4a7c59;
+}
+
+/* Improve hero section */
+.hero {
+    background-color: #f9f9f9;
+    padding: 4rem 2rem;
+}
+
+.search-bar {
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+.search-bar input {
+    padding: 0.7rem;
+}
+
+.search-bar button {
+    padding: 0.7rem 1.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #3a6347;
+}
+
+/* Enhance category buttons */
+.categories {
+    padding: 2rem 0;
+}
+
+.categories button {
+    transition: all 0.3s ease;
+}
+
+.categories button:hover {
+    background-color: #4a7c59;
+    color: white;
+}
+
+/* Style featured section */
+.featured {
+    background-color: white;
+    padding: 4rem 2rem;
+    margin-top: 2rem;
+}
+
+/* Improve footer */
+footer {
+    padding: 2rem;
+    background-color: #333;
+    color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 1rem;
+    }
+
+    nav li {
+        margin-bottom: 0.5rem;
+    }
+}
